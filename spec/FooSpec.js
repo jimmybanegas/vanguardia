@@ -9,7 +9,7 @@ describe('Foo class', () => {
       greeting = Foo.greet('Carlos');
     });
     it('then the greeting message is correct', () => {
-      expect(greeting).toBe('Hello Carlos');
+      expect(greeting).toBe('Hellos Carlos');
     });
   });
   describe('when greeting with null', () => {
@@ -18,7 +18,7 @@ describe('Foo class', () => {
       greeting = Foo.greet(null);
     });
     it('then the greeting message is correct', () => {
-      expect(greeting).toBe('Hello Stranger');
+      expect(greeting).toBe('Hellos Stranger');
     });
   });
 });
