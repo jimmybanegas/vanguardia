@@ -2,6 +2,6 @@
 module.exports = class Patito {
   static greet(name) {
     if (name == null) { return 'Hello Stranger'; }
-    return `Hello ${name}`;
+    return `Hellos ${name}`;
   }
 };
